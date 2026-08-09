@@ -1,0 +1,63 @@
+body{
+background: url(../images/thedesignlady87-lemon-cake-8274419_1920.jpg);
+
+}
+
+
+div{
+    background-color: rgba(8, 212, 239, 0.419);
+    color: rgb(14, 0, 173);
+    width: 300px;
+    height: 420px;
+    margin-left: 1000px;
+    margin-top: 100px;
+    border-radius: 20px;
+    border-radius: 20px;
+    text-align: center;
+    padding-0: 20px;
+
+    box-shadow: 23px 17px 25px 5px rgba(0,0,0,0.75);
+-webkit-box-shadow: 23px 17px 25px 5px rgba(0,0,0,0.75);
+-moz-box-shadow: 23px 17px 25px 5px rgba(0,0,0,0.75);
+}
+
+
+select{
+
+width: 200px;
+height: 20px;
+color: rgb(8, 8, 8);
+background-color: rgb(10, 189, 234);
+border-radius: 10px;
+
+}
+
+input{width: 200px;
+height: 20px;
+color: rgb(8, 8, 8);
+background-color: rgb(10, 189, 234);
+border-radius: 10px;}
+
+textarea{width: 200px;
+height: 20px;
+width: 200px;
+height: 100px;
+color: rgb(8, 8, 8);
+background-color: rgb(10, 189, 234);
+border-radius: 10px;}
+
+
+button{width: 200px;
+height: 20px;
+width: 80px;
+height: 20px;
+color: rgb(8, 8, 8);
+background-color: rgb(10, 189, 234);
+border-radius: 10px; }
+
+
+button:hover{
+   box-shadow: 1px -2px 79px 74px rgba(0,0,0,0.77);
+-webkit-box-shadow: 1px -2px 79px 74px rgba(0,0,0,0.77);
+-moz-box-shadow: 1px -2px 79px 74px rgba(0,0,0,0.77);
+}
