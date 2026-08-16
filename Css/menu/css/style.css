@@ -1,0 +1,27 @@
+ul
+{
+
+list-style:none;
+float:right;
+
+}
+ul li
+{
+float:left;
+
+padding:20px;
+
+}
+
+ul li a:hover
+{
+    color:rgb(214, 8, 8);
+    background-color: rgb(0, 255, 255);
+    border-radius: 10px;
+}
+
+ul li a
+{
+
+    text-decoration:none;
+}
