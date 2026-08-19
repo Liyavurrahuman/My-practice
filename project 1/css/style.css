@@ -33,7 +33,7 @@ background-color: #3a71d6 ;
 
 .container{
     width: 80% ;
-    height: 500px ;
+    height: 1500px ;
    margin: auto ;
     background-color: rgb(200, 11, 11) ;
 }
@@ -71,17 +71,77 @@ background-color: #3a71d6 ;
     border-radius: 100px ;
 }
 
-div.div2{
+.div2{
     width: 100% ;
-    height: 400px ;
-    background-color: rgb(19, 77, 237) ;
-    img{
-        width: 100% ;
-        height: 400px ;
-    }
+    height: 650px ;
+}
+
+.div2 img{
+    width: 100% ;
+    height: 600px ;
 }
 
 
+.one{
+    width: 32% ;
+    height: 600px ;
+    background-color: rgb(80, 118, 223) ;
+    border-radius: 30px ;
+    float: left ;
+}
 
+.two{
+    width: 32% ;
+    height: 600px ;
+    background-color: rgb(152, 209, 108) ;
+    border-radius: 30px ;
+    float: left ;
+    margin-left: 25px ;
+}
 
+.three{
+    width: 32% ;
+    height: 600px ;
+    background-color: rgb(206, 95, 152) ;
+    border-radius: 30px ;
+    float: right ;
+}
 
+.one h1{
+
+text-align: center ;
+color: rgb(7, 7, 7) ;
+}
+
+.one p{
+    text-align: justify ;
+    color: rgb(7, 7, 7) ;
+    padding-left: 40px ;
+    padding-right: 40px ;
+}
+
+.two h1{
+
+text-align: center ;
+color: rgb(7, 7, 7) ;
+}
+
+.two p{
+    text-align: justify ;
+    color: rgb(7, 7, 7) ;
+    padding-left: 40px ;
+    padding-right: 40px ;
+}
+
+.three h1{
+
+text-align: center ;
+color: rgb(7, 7, 7) ;
+}
+
+.three p{
+    text-align: justify ;
+    color: rgb(7, 7, 7) ;
+    padding-left: 40px ;
+    padding-right: 40px ;
+}
