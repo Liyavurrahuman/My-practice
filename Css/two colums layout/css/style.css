@@ -5,6 +5,26 @@
 
 .container {
     background-color: #54e6e1;
+    
 
+}
+
+.main{
+  width:65%;
+  text-align: justify;
+  text-transform:uppercase;    
+  float: left;
+
+}
+
+
+.side{
+    float: right;
+}
+
+
+.one{
+    clear: both;
+}
 
 
