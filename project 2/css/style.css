@@ -1,0 +1,60 @@
+body{
+    margin: 0px;
+  
+
+}
+
+.header{
+    width: 100% ;
+    height: 100px ;
+    background-color: #8ccee9 ;
+    margin: 0px;
+
+}
+
+.div1 ul{
+
+    list-style: none ;
+    text-align: left ;
+    padding-left: 1050px ;
+    padding-bottom: 80px ;
+    position: absolute ;
+}
+
+
+.div1 ul li a{
+    text-decoration: none ;
+}
+.div1 ul li{
+    float: left ;
+    font-size: 20px ;
+    font-weight: bold ;
+    padding: 10px ;
+    text-decoration: none ;
+}
+
+.image1{
+    width: 100% ;
+    height: 700px ;
+    
+}
+.image1 img{
+    width: 100% ;
+    height: 100% ;
+}
+.image1 h1{
+    position: absolute ;
+    top: 100px ;
+    left: 100px ;
+    color: rgb(232, 7, 7) ;
+    font-size: 50px ;
+    font-style: italic ;
+}
+.image1 p{
+    position: absolute ;
+    top: 200px ;
+    left: 100px ;
+    color: rgb(232, 7, 7) ;
+    font-size: 30px ;
+    font-style: italic ;
+}
