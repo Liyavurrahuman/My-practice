@@ -1,3 +1,27 @@
 .hover li:hover {
     background-color: #ea0000;
 }
+.top{
+    margin-top: 55px;
+}
+
+.profile {
+    margin-top: 50px;
+   
+}
+
+.Hourse p{
+    text-align: justify;
+     background-color: #e63f3f;
+    
+}
+.eee p{
+    text-align: justify;
+    background-color: #cfed57;
+    
+}
+.owl p{
+    text-align: justify;
+    background-color: #57edc9;
+    
+}
