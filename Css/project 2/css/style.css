@@ -1,5 +1,9 @@
 .hover li:hover {
-    background-color: #ea0000;
+    background-color: #00b7eaa4;
+
+}
+.container-fluid  a{
+    color: #f5f5f5;
 }
 .top{
     margin-top: 55px;
@@ -24,4 +28,8 @@
     text-align: justify;
     background-color: #57edc9;
     
+}
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
 }
