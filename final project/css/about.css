@@ -1,0 +1,94 @@
+/* ================= GENERAL ================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    color: #172033;
+    background: #ffffff;
+    line-height: 1.7;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.section {
+    padding: 90px 0;
+}
+
+
+/* ================= HEADER ================= */
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    padding: 22px 0;
+    background-color:rgb(103, 221, 221);
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    color: white;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.logo span {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    margin-right: 7px;
+    background: #e9a227;
+    border-radius: 50%;
+}
+
+nav {
+    display: flex;
+    gap: 28px;
+}
+
+nav a {
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: #e9a227;
+}
+
+.apply-btn {
+    background: #e9a227;
+    color: white;
+    padding: 12px 22px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+
