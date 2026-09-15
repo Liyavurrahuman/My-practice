@@ -42,6 +42,7 @@ a {
     width: 100%;
     z-index: 10;
     padding: 22px 0;
+    background-color:rgb(103, 221, 221);
 }
 
 .nav {
@@ -104,7 +105,7 @@ nav a:hover {
             rgba(9, 27, 55, 0.78),
             rgba(9, 27, 55, 0.78)
         ),
-        url("images/hero.jpg") center/cover no-repeat;
+        url("../images/image1.jpg") center/cover no-repeat;
 }
 
 .hero-content {
@@ -116,7 +117,7 @@ nav a:hover {
 
 .small-title,
 .section-label {
-    color: #e9a227;
+    color: #bb9b3a;
     font-size: 13px;
     font-weight: 700;
     letter-spacing: 2px;
@@ -148,12 +149,16 @@ nav a:hover {
     padding: 14px 27px;
     border-radius: 5px;
     font-weight: 600;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+  
 }
 
 .btn-primary {
     background: #e9a227;
     color: white;
 }
+
+
 
 .btn-secondary {
     border: 1px solid white;
@@ -186,8 +191,12 @@ nav a:hover {
 .text-btn {
     display: inline-block;
     margin-top: 15px;
-    color: #d18a12;
+    color: #fefbfa;
     font-weight: 700;
+    background: #337add;
+    padding: 12px 22px;
+    border-radius: 5px;
+    
 }
 
 .about-card {
@@ -200,6 +209,8 @@ nav a:hover {
     background: #f5f7fa;
     padding: 35px 25px;
     border-radius: 8px;
+    box-shadow: inset 10px 10px 20px 7px rgba(0, 0, 0, 0.5);
+-webkit-box-shadow: inset 10px 10px 20px 7px rgba(0, 0, 0, 0.5);
 }
 
 .stat strong {
@@ -247,6 +258,8 @@ nav a:hover {
     border-radius: 8px;
     transition: 0.3s;
     border: 1px solid #edf0f4;
+    box-shadow: 10px 10px 17px 7px rgba(0, 0, 0, 0.52);
+-webkit-box-shadow: 10px 10px 17px 7px rgba(0, 0, 0, 0.52);
 }
 
 .program-card:hover {
@@ -322,15 +335,15 @@ nav a:hover {
 }
 
 .image-one {
-    background-image: url("images/campus.jpg");
+    background-image: url("../images/image3.jpg");
 }
 
 .image-two {
-    background-image: url("images/student.jpg");
+    background-image: url("../images/activities-5.jpg");
 }
 
 .image-three {
-    background-image: url("images/hero.jpg");
+    background-image: url("../images/image2 .jpg");
 }
 
 .campus-content {
