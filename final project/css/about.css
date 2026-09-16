@@ -97,4 +97,50 @@ nav a:hover {
     font-size: 20px;
     color: #391b8b;
 }
+.img-container img{
+   border-radius: 10px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   margin-left: 50px;
+   animate__fadeInTopRight
+}
+.container-2{
+    margin-top: 50px;
+}
+.col{
+   background: white;
+    padding:20px 50px;
+    border-radius: 8px;
+    transition: 0.3s;
+    border: 3px solid #f9f9f9;
+    border-top: 5px solid #4561ce;
+    margin: 20px;
+    box-shadow: 12px 13px 14px 2px rgba(0,0,0,0.75);
+-webkit-box-shadow: 12px 13px 14px 2px rgba(0,0,0,0.75);
+-moz-box-shadow: 12px 13px 14px 2px rgba(0,0,0,0.75);
+}
 
+.container-3{
+    margin-top: 60px;
+}
+
+.text h2{
+    margin-top: 50px;
+    color: #0b0b0c;
+}
+
+.div001{
+   background: white;
+    padding:20px 50px;
+    border-radius: 8px;
+    transition: 0.3s;
+    border: 3px solid #f9f9f9;
+    border-left: 5px solid #4561ce;
+    margin: 20px;
+    box-shadow: 1px 6px 13px 8px rgba(0,0,0,0.77);
+-webkit-box-shadow: 1px 6px 13px 8px rgba(0,0,0,0.77);
+-moz-box-shadow: 1px 6px 13px 8px rgba(0,0,0,0.77);
+
+}
+.div01{
+    margin-top: 60px;
+}
