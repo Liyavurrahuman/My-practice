@@ -14,7 +14,7 @@ body {
     font-family: "Inter", sans-serif;
     color: #172033;
     background: #ffffff;
-    line-height: 1.7;
+    line-height: 1.7;   
 }
 
 .container {
@@ -55,6 +55,7 @@ a {
     color: white;
     font-size: 25px;
     font-weight: 800;
+     text-decoration: none;
 }
 
 .logo span {
@@ -77,7 +78,7 @@ nav a {
     color: white;
     font-size: 14px;
     font-weight: 500;
-    text-decoration: none;
+     text-decoration: none;
 }
 
 nav a:hover {
@@ -90,96 +91,160 @@ nav a:hover {
     padding: 12px 22px;
     border-radius: 5px;
     font-weight: 600;
-    text-decoration: none;
+     text-decoration: none;
 }
 
-.container.about {
-    margin: 200px;
+.contact{
+    margin: 150px;
     text-align: center;
     font-size: 20px;
     color: #391b8b;
 }
-.img-container img{
-   border-radius: 10px;
-   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-   margin-left: 50px;
-   
-}
-.container-2{
-    margin-top: 50px;
-}
-.col{
-   background: white;
-    padding:20px 50px;
-    border-radius: 8px;
-    transition: 0.3s;
-    border: 3px solid #f9f9f9;
-    border-top: 5px solid #4561ce;
-    margin: 20px;
-    box-shadow: 12px 13px 14px 2px rgba(0,0,0,0.75);
--webkit-box-shadow: 12px 13px 14px 2px rgba(0,0,0,0.75);
--moz-box-shadow: 12px 13px 14px 2px rgba(0,0,0,0.75);
-}
 
-.container-3{
-    margin-top: 60px;
-}
+.fa-beat{
+    font-size: 40px;
+    color: #06187f;
 
-.text h2{
-    margin-top: 50px;
-    color: #0b0b0c;
-}
-
-.div001{
-  background: white;
-    padding:20px 50px;
-    border-radius: 8px;
-    transition: 0.3s;
-    border: 3px solid #f9f9f9;
-    border-left: 5px solid #4561ce;
-    margin: 20px;
-    box-shadow: 1px 6px 13px 8px rgba(0,0,0,0.77);
--webkit-box-shadow: 1px 6px 13px 8px rgba(0,0,0,0.77);
--moz-box-shadow: 1px 6px 13px 8px rgba(0,0,0,0.77);
 
 }
-.div01{
-    margin-top: 60px;
-    text-align: center;
-}
-.teacher-8{
-    border-radius: 20px;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 
-}
-.div02{
-   
-    padding:auto;
-    padding-right:50px ;
-    margin: 10px;
-   border-radius: 8px;
-   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
-}
-.container-3{
-    margin-bottom: 60px;
+/* CONTACT FORM */
 
-    
+.contact-form {
+padding: 55px 45px;
 }
-.div003{
-     background: white;
-     width: 500px;
-    padding:auto;
-    margin:auto;
-    border-radius: 8px;
-    transition: 0.3s;
-    border: 3px solid #f9f9f9;
-    
-}
-.div003 img{ 
-    border-radius: 8px;
-    object-fit: cover;
 
+.contact-form h1 {
+font-size: 32px;
+color: #14213d;
+margin-bottom: 20px;
 }
+
+.description {
+color: #555;
+font-size: 17px;
+line-height: 1.7;
+margin-bottom: 30px;
+}
+
+.contact-form hr {
+border: none;
+border-top: 1px solid #ddd;
+margin-bottom: 35px;
+}
+
+
+/* FORM ROW */
+
+.form-row {
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 30px;
+}
+
+
+/* FORM GROUP */
+
+.form-group {
+margin-bottom: 28px;
+}
+
+.form-group label {
+display: block;
+
+font-size: 16px;
+font-weight: bold;
+
+color: #18283b;
+
+margin-bottom: 12px;
+}
+
+.form-group input,
+.form-group textarea {
+width: 100%;
+
+border: 1px solid #ddd;
+border-radius: 8px;
+
+padding: 18px;
+
+font-size: 16px;
+
+outline: none;
+
+background: #fff;
+}
+
+.form-group input {
+height: 65px;
+}
+
+.form-group textarea {
+height: 190px;
+resize: vertical;
+}
+
+
+/* INPUT FOCUS */
+
+.form-group input:focus,
+.form-group textarea:focus {
+border-color: #b32620;
+}
+
+
+/* PLACEHOLDER */
+
+::placeholder {
+color: #aaa;
+}
+
+
+/* SUBMIT BUTTON */
+
+button {
+background: #b32620;
+color: white;
+
+border: none;
+border-radius: 8px;
+
+padding: 18px 35px;
+
+font-size: 17px;
+font-weight: bold;
+
+cursor: pointer;
+}
+
+button i {
+margin-right: 10px;
+}
+
+button:hover {
+background: #8f1e19;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* ================= FOOTER ================= */
 
@@ -214,7 +279,7 @@ footer {
     display: block;
     color: #aeb8c7;
     margin-bottom: 8px;
-    text-decoration: none;
+     text-decoration: none;
 }
 
 .footer-grid a:hover {
