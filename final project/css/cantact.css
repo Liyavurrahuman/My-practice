@@ -110,120 +110,19 @@ nav a:hover {
 
 /* CONTACT FORM */
 
-.contact-form {
-padding: 55px 45px;
+
+
+.contact-form{
+    padding:55px 45px;
+    text-align: justify;
+      box-shadow: 12px 13px 14px 2px rgba(0,0,0,0.75);
+-webkit-box-shadow: 12px 13px 14px 2px rgba(0,0,0,0.75);
+-moz-box-shadow: 12px 13px 14px 2px rgba(0,0,0,0.75);
 }
 
-.contact-form h1 {
-font-size: 32px;
-color: #14213d;
-margin-bottom: 20px;
-}
+.contact-form h3{
+    color: #e9a227;
 
-.description {
-color: #555;
-font-size: 17px;
-line-height: 1.7;
-margin-bottom: 30px;
-}
-
-.contact-form hr {
-border: none;
-border-top: 1px solid #ddd;
-margin-bottom: 35px;
-}
-
-
-/* FORM ROW */
-
-.form-row {
-display: grid;
-grid-template-columns: 1fr 1fr;
-gap: 30px;
-}
-
-
-/* FORM GROUP */
-
-.form-group {
-margin-bottom: 28px;
-}
-
-.form-group label {
-display: block;
-
-font-size: 16px;
-font-weight: bold;
-
-color: #18283b;
-
-margin-bottom: 12px;
-}
-
-.form-group input,
-.form-group textarea {
-width: 100%;
-
-border: 1px solid #ddd;
-border-radius: 8px;
-
-padding: 18px;
-
-font-size: 16px;
-
-outline: none;
-
-background: #fff;
-}
-
-.form-group input {
-height: 65px;
-}
-
-.form-group textarea {
-height: 190px;
-resize: vertical;
-}
-
-
-/* INPUT FOCUS */
-
-.form-group input:focus,
-.form-group textarea:focus {
-border-color: #b32620;
-}
-
-
-/* PLACEHOLDER */
-
-::placeholder {
-color: #aaa;
-}
-
-
-/* SUBMIT BUTTON */
-
-button {
-background: #b32620;
-color: white;
-
-border: none;
-border-radius: 8px;
-
-padding: 18px 35px;
-
-font-size: 17px;
-font-weight: bold;
-
-cursor: pointer;
-}
-
-button i {
-margin-right: 10px;
-}
-
-button:hover {
-background: #8f1e19;
 }
 
 
