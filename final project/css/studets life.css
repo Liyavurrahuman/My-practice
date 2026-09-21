@@ -55,7 +55,7 @@ a {
     color: white;
     font-size: 25px;
     font-weight: 800;
-     text-decoration: none;
+    text-decoration: none;
 }
 
 .logo span {
@@ -78,7 +78,7 @@ nav a {
     color: white;
     font-size: 14px;
     font-weight: 500;
-     text-decoration: none;
+    text-decoration: none;
 }
 
 nav a:hover {
@@ -91,42 +91,86 @@ nav a:hover {
     padding: 12px 22px;
     border-radius: 5px;
     font-weight: 600;
-     text-decoration: none;
+    text-decoration: none;
 }
 
-.contact{
-    margin: 150px;
+
+.student{
+    margin-top: 200px;
     text-align: center;
-    font-size: 20px;
-    color: #391b8b;
+    
 }
-
-.fa-beat{
-    font-size: 40px;
-    color: #06187f;
-
+.col-4 img{
+    border-radius:25px ;
 
 }
 
-/* CONTACT FORM */
-
-
-
-.contact-form{
-    padding:55px 45px;
-    text-align: justify;
-      box-shadow: 12px 13px 14px 2px rgba(0,0,0,0.75);
--webkit-box-shadow: 12px 13px 14px 2px rgba(0,0,0,0.75);
--moz-box-shadow: 12px 13px 14px 2px rgba(0,0,0,0.75);
+.club{
+    text-align: center;
+    margin-top: 25px;
 }
 
-.contact-form h3{
-    color: #e9a227;
+.div001{
+    text-align:justify ;
+    padding: 20px 25px;
+    border-left:5px solid #c1220d;
+    border-radius:25px ;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
 
+.small{
+     background-color : rgba(222, 71, 71, 0.641);
+     align-self: flex-start;
+     border-radius: 15px;
+     padding: 12px 4px;
+     
 }
-.form-group{
-    text-align: justify;
+
+.col-6{
+    border-radius: 20px;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
 }
+
+.p-3 img {
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -181,7 +225,7 @@ footer {
     display: block;
     color: #aeb8c7;
     margin-bottom: 8px;
-     text-decoration: none;
+    text-decoration: none;
 }
 
 .footer-grid a:hover {
@@ -194,6 +238,8 @@ footer {
     padding: 20px;
     color: #9ba7b8;
 }
+
+
 
 /* ================= RESPONSIVE ================= */
 
