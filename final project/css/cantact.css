@@ -115,7 +115,8 @@ nav a:hover {
 .contact-form{
     padding:55px 45px;
     text-align: justify;
-      box-shadow: 12px 13px 14px 2px rgba(0,0,0,0.75);
+    
+    box-shadow: 12px 13px 14px 2px rgba(0,0,0,0.75);
 -webkit-box-shadow: 12px 13px 14px 2px rgba(0,0,0,0.75);
 -moz-box-shadow: 12px 13px 14px 2px rgba(0,0,0,0.75);
 }
