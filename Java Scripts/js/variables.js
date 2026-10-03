@@ -58,15 +58,95 @@
 
 // OR operator ||
 
-let emailloggedin = true;
-let phoneloggedin = false;
+// let emailloggedin = true;
+// let phoneloggedin = false;
 
-if(emailloggedin || phoneloggedin)
-{
-    console.log("Allow access to the course");
-}
- else
-{
-    console.log("Please login and pay for the course");
-}
+// if(emailloggedin || phoneloggedin)
+// {
+//     console.log("Allow access to the course");
+// }
+//  else
+// {
+//     console.log("Please login and pay for the course");
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+let lang="LIYA";
+console.log(lang +"Rahman");
+
+console.log("Liyaur"+2006)
+
+console.log(2026-2006)
+
+
+
+
+
+
 
