@@ -137,15 +137,15 @@
   
 
 
-let lang="LIYA";
-console.log(lang +"Rahman");
+// let lang="LIYA";
+// console.log(lang +"Rahman");
 
-console.log("Liyaur"+2006)
+// console.log("Liyaur"+2006)
 
-console.log(2026-2006)
+// console.log(2026-2006)
 
 
-
+//Relational Operators
 
 
 
