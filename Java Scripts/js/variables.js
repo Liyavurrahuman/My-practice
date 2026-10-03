@@ -147,20 +147,43 @@
 
 //Relational Operators
 
-console.log(5>2);
-console.log(5<2);
-console.log(5>=2);
-console.log(5<=2);
-console.log(5==2);
-console.log(5!=2);
+// console.log(5>2);
+// console.log(5<2);
+// console.log(5>=2);
+// console.log(5<=2);
+// console.log(5==2);
+// console.log(5!=2);
 
 
 
 
+//logical operators
+
+
+// console.log(false && false);//false
+// console.log(false && true);//false
+// console.log(true && false);//false
+// console.log(true && true);//true
 
 
 
+// console.log(!10);//false
+// console.log(!"ok");//false
+// console.log(!0);//true
+// console.log(!null);//false
 
+
+// console.log(10 || "ok");//10 true
+// console.log("yes" || null);//yes true
+// console.log("" || 25);//25 true
+// console.log(undefined || name);//0 false
+
+
+
+console.log(10 && "ok");//ok true
+console.log("yes" && null);//null false
+console.log("" && 25);//"" false
+console.log(undefined && "liya");//undefined false
 
 
 
