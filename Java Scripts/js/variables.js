@@ -190,7 +190,7 @@
 // console.log(fullName);
 
 
-//Arrays
+                                   //Arrays
 
 // let fruits=["apple","banana","mango","grapes"];
 // console.log(fruits)
@@ -208,18 +208,25 @@
 // console.log(fruits)
 
 
-//function
+                                      //function
 
-function sayHello(name, name1)
+// function sayHello(name, name1)
+// {
+//     console.log(name * name1);
+// }
+// sayHello(5,40);
+
+ 
+
+let fruits=["apple","banana","mango","grapes"];
+
+fruits.forEach(function(value,position)
 {
-    console.log(name * name1);
+    console.log(`${position + 1} : ${value}`); 
+    // console.log(`${position + 1} : ${value}`);
+    
 }
-sayHello(5,40);
-
-
-
-
-
+)
 
 
 
