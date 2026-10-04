@@ -210,8 +210,11 @@
 
 //function
 
-
-
+function sayHello(name, name1)
+{
+    console.log(name * name1);
+}
+sayHello(5,40);
 
 
 
