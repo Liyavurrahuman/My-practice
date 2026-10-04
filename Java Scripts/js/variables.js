@@ -180,20 +180,19 @@
 
 
 
-console.log(10 && "ok");//ok true
-console.log("yes" && null);//null false
-console.log("" && 25);//"" false
-console.log(undefined && "liya");//undefined false
+// console.log(10 && "ok");//ok true
+// console.log("yes" && null);//null false
+// console.log("" && 25);//"" false
+// console.log(undefined && "liya");//undefined false
 
 
+// let fullName="liyaur"+"rahman";
+// console.log(fullName);
 
 
+//Arrays
 
-
-
-
-
-
+let fruits=["apple","banana","mango","grapes"];
 
 
 
