@@ -222,7 +222,7 @@ let fruits=["apple","banana","mango","grapes"];
 
 fruits.forEach(function(value,position)
 {
-    console.log(`${position + 1} : ${value}`); 
+    console.log(`${position} : ${value}`); 
     // console.log(`${position + 1} : ${value}`);
     
 }
