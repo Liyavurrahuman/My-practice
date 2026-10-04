@@ -193,8 +193,10 @@
 //Arrays
 
 let fruits=["apple","banana","mango","grapes"];
-
-
-
-
+console.log(fruits)
+console.log(fruits[0])//apple
+console.log(fruits[1])//banana
+console.log(fruits[2])//mango
+console.log(fruits[3])//grapes
+console.log(fruits.length)//4
 
