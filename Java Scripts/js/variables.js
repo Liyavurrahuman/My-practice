@@ -231,9 +231,15 @@
 
 
 
+                            //forloop
 
 
+//for(variable; condition; increment/decrement)
+
+// for(liya=0; liya<10; liya++)
+//     console.log(liya);
 
 
-
+for(liya=0; liya<10; liya++)
+    console.log("hello " + liya);
 
