@@ -1,0 +1,237 @@
+/* ================= GENERAL ================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    color: #172033;
+    background: #ffffff;
+    line-height: 1.7;   
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.section {
+    padding: 90px 0;
+}
+
+
+/* ================= HEADER ================= */
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    padding: 22px 0;
+    background-color:rgb(103, 221, 221);
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    color: white;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.logo span {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    margin-right: 7px;
+    background: #e9a227;
+    border-radius: 50%;
+}
+
+nav {
+    display: flex;
+    gap: 28px;
+}
+
+nav a {
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: #e9a227;
+}
+
+.apply-btn {
+    background: #e9a227;
+    color: white;
+    padding: 12px 22px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ================= FOOTER ================= */
+
+footer {
+    background: #101c2d;
+    color: white;
+    padding-top: 60px;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 50px;
+    padding-bottom: 45px;
+}
+
+.footer-grid h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.footer-grid h4 {
+    margin-bottom: 15px;
+}
+
+.footer-grid p {
+    color: #aeb8c7;
+    max-width: 400px;
+}
+
+.footer-grid a {
+    display: block;
+    color: #aeb8c7;
+    margin-bottom: 8px;
+}
+
+.footer-grid a:hover {
+    color: #e9a227;
+}
+
+.copyright {
+    text-align: center;
+    border-top: 1px solid #293548;
+    padding: 20px;
+    color: #9ba7b8;
+}
+
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 900px) {
+
+    nav {
+        display: none;
+    }
+
+    .hero h1 {
+        font-size: 44px;
+    }
+
+    .program-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .campus-grid,
+    .news-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .two-column,
+    .contact-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .admission-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+}
+
+
+@media (max-width: 600px) {
+
+    .hero {
+        min-height: 650px;
+    }
+
+    .hero h1 {
+        font-size: 36px;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .program-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .about-card {
+        grid-template-columns: 1fr;
+    }
+
+    .section {
+        padding: 65px 0;
+    }
+
+    .section-heading h2,
+    .about h2,
+    .contact h2,
+    .admission h2 {
+        font-size: 32px;
+    }
+
+    .footer-grid {
+        grid-template-columns: 1fr;
+    }
+
+}
