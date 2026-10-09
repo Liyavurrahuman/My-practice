@@ -28,24 +28,33 @@
     </script>  -->
  <!-- ---------------------------------------------------------------------------------- -->
 
- <input id="num1" value="">
- <input id="num2" value="">
+ <input id="num1" value="5">
+ <input id="num2" value="10">
  <button onclick="addNumbers()">Add</button>
   <p id="result">Result</p>
 
   <script>
-    let box1=document.getElementById("num1");
-    let box2=document.getElementById("num2");
-    let total=document.getElementById("result");
-    let button=document.querySelector("button");
+    let box1=document.getElementById("num1")
+    let box2=document.getElementById("num2")
+    let total=document.getElementById("result")
+    
 
-    let box1Value=(box1.value);
-    let box2Value=(box2.value);
+    let box1Value=Number(box1.value)
+    let box2Value=Number(box2.value)
 
-    let totalvalue=box1Value+box2Value;
-    function addNumbers(){
-        total.textContent=totalvalue;
+    let tot=box1Value+box2Value
+
+    function addNumbers()
+    {
+        result.textContent=tot
     }
- </script>
+
+    console.log(tot)
+
+
+   
+  </script>
+
+
 </body>
 </html>
