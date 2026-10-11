@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://code.jquery.com/jquery-4.0.0.js" 
+    integrity="sha256-9fsHeVnKBvqh3FB2HYu7g2xseAZ5MlN6Kz/qnkASV8U="
+     crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<img id="logo" src="logo.png" alt="Description of the image">
+
+<div id="parent">
+    <P>one</P>
+</div>
+
+<div id="remove">Liyaurrahman</div>
+
+<script>
+    //DOM Manipulation attribute
+    $("#logo").attr("src", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBB4LQTn0vRq4ydPLp-uTj_lEUHOHYWUU18JlCq5KuMw&s=10.png");
+    $("#logo").attr("alt", "New description of the image");
+    
+
+    //append
+    $("#parent").append("<p>two</p>");
+    $("#parent").append("<p>three</p>");
+
+    //prepend
+    $("#parent").prepend("<p>zero</p>");
+
+    //remove
+    $("#remove").remove();
+
+</script>
+    
+</body>
+</html>

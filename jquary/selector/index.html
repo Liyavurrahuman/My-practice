@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://code.jquery.com/jquery-4.0.0.js" 
+    integrity="sha256-9fsHeVnKBvqh3FB2HYu7g2xseAZ5MlN6Kz/qnkASV8U="
+     crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<div id="one">wellcome</div>
+<div class="two">wellcome</div>
+
+<p>Liyaurrahman</p>
+
+<form action="">
+    <input type="text" placeholder="Enter your name">
+    <input type="password" placeholder="Enter your password">
+</form>
+
+<div class="three">
+    <p>pragraph1</p>
+    <p>pragraph2</p>
+</div>
+
+<div class="four">
+    <p>direct child</p>
+    <div>
+        <p>not direct child</p>
+    </div>
+
+</div>
+
+<script>
+    //ID selector
+        $("#one").text("Liyaurrahman");
+        $("#one").css("color", "red");
+    //class selector
+        $(".two").text("Liyaurrahman");
+        $(".two").css("background-color", "blue");    
+    //element selector
+        $("p").text("Liya");
+        $("p").css("font-size", "30px");
+    //attribute selector
+        $("[placeholder]").css("background-color", "yellow");
+        $("input[type='password']").css("border", "2px solid red");   
+    //descendant selector
+        $(".three p").css("color", "red");
+        $(".three p").text("Liyaurrahman"); 
+        
+    //child selector
+        $(".four > p").css("color", "blue");
+        $(".four > p").css("font-size", "50px", "font-weight", "bold");    
+        
+
+</script>
+</body>
+</html>
