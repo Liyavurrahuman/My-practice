@@ -58,18 +58,52 @@
 
 
 <div id="box"></div>
-<button>Click</button>
+<button id ="liya" onclick="changeColor()">Click</button>
 
 <style>
-    #box{
+    div
+    {
         width: 100px;
         height: 100px;
-        background-color: black;
+        background-color: rgb(205, 16, 16);
+        transition: 3s;
     }
+
+    .widthmax{
+        width: 100%;
+    }
+button
+{
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: blue;
+    color: white;
+}
+
 </style>
 
 <script>
-    
+    let box=document.getElementById("box")
+
+
+    function changeColor()
+    {
+        box.setAttribute("class","widthmax")
+        liya.textContent="Width Changed"
+
+    }
+
+
+
+
+
+
+
+    // function changeColor()
+    // {
+    //     box.style.backgroundColor="red"
+    // }
 
 
 
