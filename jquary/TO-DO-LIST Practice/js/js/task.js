@@ -1,10 +1,17 @@
 $(document).ready(function() 
 {
 // Add a new task
-$("#add").onclick(function() 
+$("#adds").click(function() 
 {
+ var task = $("#input").val();
+ if (task)
+    {
+        $("#task-list").append("<li>" + task + "</li>");
+        $("#input").val("");
 
+     }
 })
 
 }
+
 )
