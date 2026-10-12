@@ -245,8 +245,30 @@ footer {
 
 @media (max-width: 900px) {
 
+    .header {
+        padding: 12px 0;
+    }
+
+    .header .nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+    }
+
     nav {
-        display: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+    }
+
+    nav a {
+        font-size: 13px;
+    }
+
+    .apply-btn {
+        padding: 8px 12px;
+        font-size: 13px;
     }
 
     .hero h1 {
