@@ -96,7 +96,8 @@ nav a:hover {
 
 
 .student{
-    margin-top: 200px;
+    margin-top: 0;
+    padding: 160px 20px 40px;
     text-align: center;
     
 }
