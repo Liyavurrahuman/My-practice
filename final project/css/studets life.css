@@ -134,6 +134,8 @@ nav a:hover {
 
 .p-3 img {
     border-radius: 20px;
+    width: 100%;
+    height: 100%;
 }
 
 
