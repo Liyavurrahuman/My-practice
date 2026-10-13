@@ -139,7 +139,7 @@ nav a:hover {
     transition: 0.3s;
     border: 3px solid #f9f9f9;
     border-left: 5px solid #4561ce;
-    margin: 20px;
+    margin: 5px;
     box-shadow: 1px 6px 13px 8px rgba(0,0,0,0.77);
 -webkit-box-shadow: 1px 6px 13px 8px rgba(0,0,0,0.77);
 -moz-box-shadow: 1px 6px 13px 8px rgba(0,0,0,0.77);
@@ -172,8 +172,7 @@ nav a:hover {
     height:300px
 }
 .div003{
-     background: white;
-     width: 500px;
+    background: white; 
     padding:auto;
     margin:auto;
     border-radius: 8px;
