@@ -187,7 +187,7 @@ nav a:hover {
     border-radius: 10px;
 }
 
-.btn-primary:before {
+ .btn-primary:before {
     content: '';
     background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
     position: absolute;
@@ -201,7 +201,7 @@ nav a:hover {
     animation: glowing 20s linear infinite;
     opacity: 0;
     transition: opacity .3s ease-in-out;
-    border-radius: 10px;
+    border-radius: 10px; 
 }
 
 .btn-primary:active {
@@ -592,6 +592,18 @@ button {
 	transition: 100ms;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
 span,
 svg {
 	position: absolute;
@@ -605,7 +617,7 @@ svg {
 button:focus {
 	outline: none;
 	border: 2px solid #1e2a78;
-	width: 50px;
+	width: 250px;
 	border-left: 4px solid #1e2a78;
 	border-bottom: 4px solid #1e2a78;
 	animation: spin 5s 500ms forwards;
