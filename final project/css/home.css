@@ -42,7 +42,9 @@ a {
     width: 100%;
     z-index: 10;
     padding: 22px 0;
-    background-color:rgb(103, 221, 221);
+    border-radius: 50px;
+    background: linear-gradient(135deg,#00c6ff,#7f10ed7d);
+    /* background:rgb(103, 221, 221); */
 }
 
 .nav {
@@ -80,12 +82,13 @@ nav a {
 }
 
 nav a:hover {
-    color: #e9a227;
+    color: #faf6fe;
+    background-color: #7f00ff;
 }
 
 .apply-btn {
     /* background: #e9a227; */
-    color: white;
+    color: rgb(251, 3, 3);
     padding: 12px 22px;
     border-radius: 5px;
     font-weight: 600;
@@ -109,9 +112,7 @@ nav a:hover {
     position: relative;
     display: flex;
     align-items: center;
-
-    background:
-        linear-gradient(
+    background:linear-gradient(
             rgba(9, 27, 55, 0.78),
             rgba(9, 27, 55, 0.78)
         ),
@@ -163,7 +164,109 @@ nav a:hover {
   
 }
 
+
+
+
+
+
+
+
+
+
+
 .btn-primary {
+    width: 220px;
+    height: 60px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #0f89d0;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.btn-primary:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.btn-primary:active {
+    color: #0a0a0a
+}
+
+.btn-primary:active:after {
+    background: transparent;
+}
+
+.btn-primary:hover:before {
+    opacity: 1;
+}
+
+.btn-primary:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #8404df8d;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .btn-primary {
     background: #e9a227;
     color: white;
 }
@@ -176,7 +279,7 @@ nav a:hover {
       opacity: 1;
       transform: translate(-50%, -50%) scale(1);
     }
-}
+} */
 
 
 .btn-secondary {
@@ -228,8 +331,15 @@ nav a:hover {
     font-weight: 700;
     background: #337add;
     padding: 12px 22px;
-    border-radius: 5px;
+    border-radius: 5px; 
     
+}
+
+.text-btn :hover{
+  
+
+
+
 }
 
 .about-card {
