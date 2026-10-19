@@ -84,13 +84,23 @@ nav a:hover {
 }
 
 .apply-btn {
-    background: #e9a227;
+    /* background: #e9a227; */
     color: white;
     padding: 12px 22px;
     border-radius: 5px;
     font-weight: 600;
-}
 
+    cursor: pointer;
+    position: relative;
+    transition: o.4s;
+    background: linear-gradient(135deg,#00c6ff,#7f00ff);
+}
+.apply-btn:hover{
+    box-shadow: 0 0 20px
+              rgba(127,0,255.0,0);
+    transform: translateY(-2px);          
+
+}
 
 /* ================= HERO ================= */
 
