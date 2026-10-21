@@ -32,6 +32,10 @@
         <a href="#" class="logo">
             <span>U</span> UniVision
         </a>
+        
+<button id="themeToggle" class="theme-btn">
+  🌙 Dark Mode
+</button>
 
         <nav>
             <a href="home.html">Home</a>
@@ -585,6 +589,38 @@
     </div>
 
 </footer>
+
+<!-- dark button -->
+
+<!-- <script>const themeToggle = document.getElementById("themeToggle");
+
+themeToggle.addEventListener("click", function () {
+    document.body.classList.toggle("dark-mode");
+
+    if (document.body.classList.contains("dark-mode")) {
+        themeToggle.textContent = "☀️ Light Mode";
+    } else {
+        themeToggle.textContent = "🌙 Dark Mode";
+    }
+});
+</script> -->
+
+<script>
+    const themeBtn = document.getElementById("themeBtn");
+
+themeBtn.addEventListener("click", function () {
+    document.body.classList.toggle("dark-mode");
+
+    if (document.body.classList.contains("dark-mode")) {
+        themeBtn.textContent = "☀️ Light Mode";
+    } else {
+        themeBtn.textContent = "🌙 Dark Mode";
+    }
+});
+</script>
+
+
+
 
 <!-- Bootstrap JavaScript Bundle (includes Popper) -->
         <script

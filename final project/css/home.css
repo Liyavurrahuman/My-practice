@@ -108,6 +108,43 @@ nav a:hover {
 
 }
 
+
+
+
+/* Default light mode */
+
+
+body {
+    background-color: #ffffff;
+    color: #222222;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Dark mode */
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+/* Button design */
+.theme-btn {
+    background-color: #2563eb;
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.theme-btn:hover {
+    background-color: #1d4ed8;
+}
+
+
+
 /* ================= HERO ================= */
 
 .hero {
@@ -617,7 +654,7 @@ svg {
   font-weight: bold;
 }
 
-button:focus {
+/* button:focus {
 	outline: none;
 	border: 2px solid #1e2a78;
 	width: 250px;
@@ -656,7 +693,7 @@ button:focus svg {
 		border: 4px solid #303a52;
     color: blue;
 	}
-}
+} */
 
 
 
@@ -672,16 +709,16 @@ button:focus svg {
 
 
 
-/* button {
+button {
     border: none;
-    background: #2d1e04;
+    background: #d7d3ce;
     color: white;
     padding: 14px;
-    border-radius: 5px;
+    border-radius: 25px;
     font-size: 15px;
     font-weight: 600;
     cursor: pointer;
-} */
+}
 
 
 /* ================= FOOTER ================= */
