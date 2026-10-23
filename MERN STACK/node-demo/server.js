@@ -7,3 +7,10 @@ const server=http.createserver((req,res)=>{
 server.listen(3000,()=>{
     console.log("server running at http://localhost:3000");
 })
+
+
+
+
+
+
+// izuula some mistake
