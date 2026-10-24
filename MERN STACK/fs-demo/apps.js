@@ -15,7 +15,8 @@
 
      //append data
 const fs=require("fs")
-fs.appendFileSync("student.text","course:MERN STACK");
-console.log("data added succefully")
+fs.appendFileSync("student.text","\n course:MERN STACK");
+console.log("data added succefully");
+
 
 
