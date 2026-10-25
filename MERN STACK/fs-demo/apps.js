@@ -18,5 +18,5 @@ const fs=require("fs")
 fs.appendFileSync("student.text","\n course:MERN STACK");
 console.log("data added succefully");
 
-
+//delete file
 
