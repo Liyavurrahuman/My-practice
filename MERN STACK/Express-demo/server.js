@@ -4,12 +4,21 @@ app.get("/",(req,res)=>
 {
 res.send("Hello World");
 } );
-app.get("/about,(req,res)")
+app.get("/about",(req,res)=>{
+    res.send("This is the about pages")
+});
+
+
+
+
+
+
+
+
 
 
 app.listen(3000,()=>
 {
-
  console.log("server running");    
 })
 
