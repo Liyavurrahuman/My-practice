@@ -27,7 +27,17 @@ app.get("/search",(req,res)=>
     });
 });
 
-app.get
+app.get("/api/students",(req,res)=>
+
+{
+    res.json({
+        message:"students retrived successfully",
+        student:[
+            {id:102,name:liya},
+            {id:103,nmae:mmm}
+        ]
+    });
+});
 
 
 app.listen(3000,()=>
