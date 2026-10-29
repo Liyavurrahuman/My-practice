@@ -18,9 +18,16 @@ app.get("/students/:id/courses/:course",(req,res)=>{
     });
 });
 
-app.get("/search,(req,res)=>{}")
+app.get("/search",(req,res)=>
+    {
+        res.json({
+            search:req.query.asd,
+            barnd:req.query.brand
 
+    });
+});
 
+app.get
 
 
 app.listen(3000,()=>
