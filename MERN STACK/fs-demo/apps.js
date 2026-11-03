@@ -20,3 +20,5 @@ console.log("data added succefully");
 
 //delete file
 
+
+console.log("file deleted successfully");
