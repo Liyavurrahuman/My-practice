@@ -607,6 +607,7 @@ body.dark-mode {
 form {
     display: flex;
     flex-direction: column;
+    border: 1px solid #0f52a8;
     gap: 15px;
 }
 
