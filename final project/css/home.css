@@ -634,12 +634,13 @@ button {
 /* form */
 
 form{
-    background-color: #002bff;
+    background-color:linear-gradient(135deg, #0628d1, blueviolet);
     border-radius: 30px;
 }
 
 input{
     border-radius:25px;
+    background-color: #0543a0;
 }
 
 
