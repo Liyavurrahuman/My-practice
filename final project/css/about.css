@@ -36,13 +36,14 @@ a {
 /* ================= HEADER ================= */
 
 .header {
-    position: fixed;
+   position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 10;
     padding: 22px 0;
-    background-color:rgb(103, 221, 221);
+    border-radius: 50px;
+    background: linear-gradient(135deg,#00c6ff,#7f10ed7d);
 }
 
 .nav {
@@ -55,6 +56,7 @@ a {
     color: white;
     font-size: 25px;
     font-weight: 800;
+    text-decoration: none;
 }
 
 .logo span {
@@ -74,14 +76,22 @@ nav {
 }
 
 nav a {
+    padding: 12px 28px;
+    border:2px solid transparent;
+    border-radius: 50px;
+    background: rgba(0, 0, 0, 0.147);
     color: white;
     font-size: 14px;
     font-weight: 500;
+    transition: 0.3s;
     text-decoration: none;
 }
 
 nav a:hover {
-    color: #e9a227;
+     color: #f5f3f8;
+    box-shadow:0 0 15px  #ff00ff,
+               0 0 30px  #00ffff;
+    transform: translateY(-2px);  
 }
 
 .apply-btn {

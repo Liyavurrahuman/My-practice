@@ -78,9 +78,14 @@ nav {
 }
 
 nav a {
+    padding: 12px 28px;
+    border:2px solid transparent;
+    border-radius: 50px;
+    background: rgba(0, 0, 0, 0.147);
     color: white;
     font-size: 14px;
     font-weight: 500;
+    transition: 0.3s;
 }
 
 nav a:hover {
