@@ -69,7 +69,7 @@
 
 import express from "express";
 
-import studentRoutes from "./routes/studentRoutes.js";
+import studentRoutes from "./Routes/studentRoutes.js";
 
 const app = express();
 
