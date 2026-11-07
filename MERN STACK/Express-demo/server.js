@@ -76,6 +76,14 @@ const app = express();
 // Middleware
 app.use(express.json());
 
+// custom middleware
+const mymiddleware = (req, res, next) => 
+    {
+        console.log("middleware working");
+        next();
+    }
+app.use(mymiddleware);
+
 // Student API routes
 app.use("/api/students", studentRoutes);
 
