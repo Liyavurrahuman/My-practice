@@ -83,7 +83,7 @@ const requestLogger = (req, res, next) =>
         console.log("request url:", req.url);
         console.log("request time:", new Date());
         next();
-    }
+    };
 app.use(requestLogger);
 
 // Student API routes
