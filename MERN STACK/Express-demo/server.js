@@ -77,12 +77,14 @@ const app = express();
 app.use(express.json());
 
 // custom middleware
-const mymiddleware = (req, res, next) => 
+const requestLogger = (req, res, next) => 
     {
-        console.log("middleware working");
+        console.log("request method:", req.method);
+        console.log("request url:", req.url);
+        console.log("request time:", new Date());
         next();
     }
-app.use(mymiddleware);
+app.use(requestLogger);
 
 // Student API routes
 app.use("/api/students", studentRoutes);
