@@ -19,11 +19,11 @@ const validateStudents = (req, res, next) =>
             }
         );
     }
-    if (typeof age !== "number" || age <= 0)
+    if (!Number.isInteger(age) || age <= 0)
     {
         return res.status(400).json(
             {
-                message: "Age must be a positive number"
+                message: "Age must be a positive integer"
             }
         );
     }
