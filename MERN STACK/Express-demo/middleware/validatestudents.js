@@ -37,3 +37,4 @@ const validateStudents = (req, res, next) =>
     }
     next();
 }
+export default validateStudents;
