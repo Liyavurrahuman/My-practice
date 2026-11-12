@@ -90,9 +90,20 @@ app.use(requestLogger);
 app.use("/api/students", studentRoutes);
 
 // Home route
-app.get("/", (req, res) => {
+app.get("/liya", (req, res) => {
     res.send("Welcome to Student API");
 });
+
+
+//EJS ROUTES
+app.get("/welcome", (req, res) => 
+    {
+        res.render("welcome", 
+            {  
+                name: "Liya" 
+            });
+    });        
+
 
 app.listen(3000, () => {
     console.log("Server running on port 3000");
@@ -115,6 +126,18 @@ app.get("/students-page", (req, res) =>
 
 
 
+
+
+
+import express from "express";
+
+const app = express();
+
+// Set EJS as View Engine
+app.set("view engine", "ejs");
+
+// Set Views Folder
+app.set("views", "./views");
 
 
 
