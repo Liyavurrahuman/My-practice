@@ -71,7 +71,7 @@ import express from "express";
 
 import studentRoutes from "./Routes/studentRoutes.js";
 
-const app = express();
+ const app = express();
 
 // Middleware
 app.use(express.json());
@@ -129,15 +129,15 @@ app.get("/students-page", (req, res) =>
 
 
 
-import express from "express";
+// import express from "express";
 
-const app = express();
+//  const app = express();
 
-// Set EJS as View Engine
-app.set("view engine", "ejs");
+// // Set EJS as View Engine
+// app.set("view engine", "ejs");
 
-// Set Views Folder
-app.set("views", "./views");
+// // Set Views Folder
+// app.set("views", "./views");
 
 
 
