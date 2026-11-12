@@ -106,8 +106,8 @@ app.get("/students-list", (req, res) =>
             { id: 1, name: "John Doe", age: 20 ,course:"IT" },
             { id: 2, name: "Jane Smith", age: 22 ,course:"CS" },
             { id: 3, name: "Mike Johnson", age: 19 ,course:"IT" },
-
-        ]   
+        ];   
+        res.render("students-list", { students: students });
 
 
     })       
