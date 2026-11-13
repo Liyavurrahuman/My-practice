@@ -67,61 +67,61 @@
 
 
 
-import express from "express";
+// import express from "express";
 
-import studentRoutes from "./Routes/studentRoutes.js";
+// import studentRoutes from "./Routes/studentRoutes.js";
 
- const app = express();
+//  const app = express();
 
-// Middleware
-app.use(express.json());
+// // Middleware
+// app.use(express.json());
 
-// custom middleware
-const requestLogger = (req, res, next) => 
-    {
-        console.log("request method:", req.method);
-        console.log("request url:", req.url);
-        console.log("request time:", new Date());
-        next();
-    };
-app.use(requestLogger);
+// // custom middleware
+// const requestLogger = (req, res, next) => 
+//     {
+//         console.log("request method:", req.method);
+//         console.log("request url:", req.url);
+//         console.log("request time:", new Date());
+//         next();
+//     };
+// app.use(requestLogger);
 
-// Student API routes
-app.use("/api/students", studentRoutes);
+// // Student API routes
+// app.use("/api/students", studentRoutes);
 
-// Home route
-app.get("/liya", (req, res) => {
-    res.send("Welcome to Student API");
-});
-
-
-//EJS ROUTES
-app.get("/welcome", (req, res) => 
-    {
-        res.render("welcome", 
-            {  
-                name: "Liya" 
-            });
-    });        
+// // Home route
+// app.get("/liya", (req, res) => {
+//     res.send("Welcome to Student API");
+// });
 
 
-app.listen(3000, () => {
-    console.log("Server running on port 3000");
-});
+// //EJS ROUTES
+// app.get("/welcome", (req, res) => 
+//     {
+//         res.render("welcome", 
+//             {  
+//                 name: "Liya" 
+//             });
+//     });        
 
 
-//student page Ejs
-app.get("/students-page", (req, res) => 
-    {
-        const students = [
-            { id: 1, name: "John Doe", age: 20 ,course:"IT" },
-            { id: 2, name: "Jane Smith", age: 22 ,course:"CS" },
-            { id: 3, name: "Mike Johnson", age: 19 ,course:"IT" },
-        ];   
-        res.render("students-page", { students: students });
+// app.listen(3000, () => {
+//     console.log("Server running on port 3000");
+// });
 
 
-    })       
+// //student page Ejs
+// app.get("/students-page", (req, res) => 
+//     {
+//         const students = [
+//             { id: 1, name: "John Doe", age: 20 ,course:"IT" },
+//             { id: 2, name: "Jane Smith", age: 22 ,course:"CS" },
+//             { id: 3, name: "Mike Johnson", age: 19 ,course:"IT" },
+//         ];   
+//         res.render("students-page", { students: students });
+
+
+//     })       
 
 
 
@@ -141,3 +141,73 @@ app.get("/students-page", (req, res) =>
 
 
 
+
+
+import express from "express";
+
+import studentRoutes from "./Routes/studentRoutes.js";
+
+const app = express();
+
+// EJS Configuration
+app.set("view engine", "ejs");
+
+// Middleware
+app.use(express.json());
+
+// Custom Middleware
+const requestLogger = (req, res, next) => {
+
+    console.log("Request Method:", req.method);
+    console.log("Request URL:", req.url);
+    console.log("Request Time:", new Date());
+
+    next();
+};
+
+app.use(requestLogger);
+
+// Student API Routes
+app.use("/api/students", studentRoutes);
+
+// Home Route
+app.get("/liya", (req, res) => {
+
+    res.send("Welcome to Student API");
+
+});
+
+// EJS Welcome Route
+app.get("/welcome", (req, res) => {
+
+    res.render("welcome", {
+        name: "Liya"
+    });
+
+});
+
+// Student Page EJS Route
+app.get("/students-page", (req, res) => {
+
+    const students = [
+
+        { id: 1, name: "John Doe", age: 20, course: "IT" },
+
+        { id: 2, name: "Jane Smith", age: 22, course: "CS" },
+
+        { id: 3, name: "Mike Johnson", age: 19, course: "IT" }
+
+    ];
+
+    res.render("students-page", {
+        students: students
+    });
+
+});
+
+// Start Server
+app.listen(3000, () => {
+
+    console.log("Server running on port 3000");
+
+});
