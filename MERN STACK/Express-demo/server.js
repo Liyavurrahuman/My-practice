@@ -187,9 +187,9 @@ app.get("/welcome", (req, res) => {
 });
 
 // Student Page EJS Route
-app.get("/students-page", (req, res) => {
+app.get("/student", (req, res) => {
 
-    const students = [
+    const student = [
 
         { id: 1, name: "John Doe", age: 20, course: "IT" },
 
@@ -199,8 +199,8 @@ app.get("/students-page", (req, res) => {
 
     ];
 
-    res.render("students-page", {
-        students: students
+    res.render("student", {
+        student: student
     });
 
 });
