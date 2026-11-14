@@ -1,34 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Student List</title>
 
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 40px;
-        }
-
-        table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-
-        th, td {
-            border: 1px solid #ccc;
-            padding: 12px;
-            text-align: left;
-        }
-
-        th {
-            background-color: #e5e7eb;
-        }
-    </style>
-</head>
-
-<body>
+<$-include("partials/header.ejs") -%>
+ 
     <h1>Student List</h1>
 
     <table>
@@ -62,5 +34,4 @@
     <% }); %>
 </tbody>
     </table>
-</body>
-</html>
+<$-include("partials/footer.ejs") -%>
