@@ -184,6 +184,7 @@ app.get("/welcome", (req, res) => {
     res.render("welcome", 
     {
         title: "Welcome Page",
+        course: "IT",
         name: "Liya"
     });
 
@@ -203,7 +204,10 @@ app.get("/student", (req, res) => {
     ];
 
     res.render("student", {
-        student: student
+        student: student,
+        title: "Student Page",
+        name: "Liya",
+        course: "IT",
     });
 
 });
@@ -213,6 +217,12 @@ app.get("/about", (req, res) =>
     {
         res.render("about",{title:"About Page"});
 
+    });
+
+    // Contact Page EJS Route
+app.get("/contact", (req, res) => 
+    {
+        res.render("contact",{title:"Contact Page"});
     });
 
 // Start Server
