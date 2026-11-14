@@ -181,7 +181,9 @@ app.get("/liya", (req, res) => {
 // EJS Welcome Route
 app.get("/welcome", (req, res) => {
 
-    res.render("welcome", {
+    res.render("welcome", 
+    {
+        title: "Welcome Page",
         name: "Liya"
     });
 
