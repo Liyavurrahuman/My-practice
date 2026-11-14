@@ -155,6 +155,7 @@ app.set("view engine", "ejs");
 // Middleware
 app.use(express.json());
 app.use(express.static("public"));
+app.use(express.urlencoded({ extended: true }));
 
 // Custom Middleware
 const requestLogger = (req, res, next) => {
