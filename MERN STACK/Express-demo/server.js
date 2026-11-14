@@ -157,6 +157,14 @@ app.use(express.json());
 app.use(express.static("public"));
 app.use(express.urlencoded({ extended: true }));
 
+
+// temperary data for students
+let students =[
+    { id: 1, name: "John Doe", age: 20, course: "IT" },
+    { id: 2, name: "Jane Smith", age: 22, course: "CS" },
+    { id: 3, name: "Mike Johnson", age: 19, course: "IT" }
+];
+
 // Custom Middleware
 const requestLogger = (req, res, next) => {
 
@@ -225,6 +233,49 @@ app.get("/contact", (req, res) =>
     {
         res.render("contact",{title:"Contact Page"});
     });
+
+
+//Register Page EJS Route
+app.get("/register", (req, res) =>
+    {
+        res.render("register",{title:"Register Page"});
+    });
+
+
+
+//handle register form submission
+app.post("/register", (req, res) => {
+    const { name, age, course } = req.body;
+
+    // server-side validation
+    const parsedAge=parseInt(age, 10);
+    if(
+        typeof name !== "string" || name.trim() === "" ||
+        !Number.isInteger(parsedAge) || parsedAge <= 0 ||
+        typeof course !== "string" || !["IT", "CS"].includes(course)
+    )
+
+    {
+        return res.status(400).send("Invalid input. Please provide valid name, age, and course.");
+    }
+
+    const newStudent = {
+        id: Math.max(...students.map(s => s.id)) + 1,
+        name: name.trim(),
+        age: parsedAge,
+        course: course
+    };
+
+    students.push(newStudent);
+    res.redirect("/student");
+    
+});
+
+
+
+
+
+
 
 // Start Server
 app.listen(3000, () => {
