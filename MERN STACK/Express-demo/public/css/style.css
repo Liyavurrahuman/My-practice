@@ -67,3 +67,37 @@ form
         margin-bottom: 10px;
         font-weight: bold;
     }   
+
+
+input input,form select, form textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+    }
+
+    input[type="submit"] {
+        background-color: #176b46;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+        background-color: #145a3a;
+    }    
+
+
+button    {
+        background-color: #176b46;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        border-radius: 4px;
+    }
+
+    button:hover {
+        background-color: #145a3a;
+}
