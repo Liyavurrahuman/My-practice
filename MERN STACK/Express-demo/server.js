@@ -154,6 +154,7 @@ app.set("view engine", "ejs");
 
 // Middleware
 app.use(express.json());
+app.use(express.static("public"));
 
 // Custom Middleware
 const requestLogger = (req, res, next) => {
@@ -204,6 +205,13 @@ app.get("/student", (req, res) => {
     });
 
 });
+
+// About Page EJS Route
+app.get("/about", (req, res) => 
+    {
+        res.render("about",{title:"About Page"});
+
+    });
 
 // Start Server
 app.listen(3000, () => {
