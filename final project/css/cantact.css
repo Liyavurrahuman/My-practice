@@ -42,8 +42,9 @@ a {
     width: 100%;
     z-index: 10;
     padding: 22px 0;
-    background-color:rgb(103, 221, 221);
-}
+    border-radius: 50px;
+    background: linear-gradient(135deg,#00c6ff,#7f10ed7d);
+}  
 
 .nav {
     display: flex;
@@ -75,24 +76,34 @@ nav {
 }
 
 nav a {
+   padding: 12px 28px;
+    border:2px solid transparent;
+    border-radius: 50px;
+    background: rgba(0, 0, 0, 0.147);
     color: white;
     font-size: 14px;
     font-weight: 500;
-    text-decoration: none;
+    transition: 0.3s;
 }
 
 nav a:hover {
-    color: #e9a227;
+     color: #f5f3f8;
+    box-shadow:0 0 15px  #ff00ff,
+               0 0 30px  #00ffff;
+    transform: translateY(-2px); 
 }
 
 .apply-btn {
-    background: #e9a227;
-    color: white;
+   color: rgb(251, 3, 3);
     padding: 12px 22px;
     border-radius: 5px;
     font-weight: 600;
-     text-decoration: none;
-}
+
+    cursor: pointer;
+    position: relative;
+    transition: o.4s;
+    background: linear-gradient(135deg,#00c6ff,#7f00ff);
+}  
 
 .contact{
     color: #391b8b;
