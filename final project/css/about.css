@@ -36,7 +36,7 @@ a {
 /* ================= HEADER ================= */
 
 .header {
-   position: fixed;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -95,12 +95,15 @@ nav a:hover {
 }
 
 .apply-btn {
-    background: #e9a227;
-    color: white;
+   color: rgb(251, 3, 3);
     padding: 12px 22px;
     border-radius: 5px;
     font-weight: 600;
-    text-decoration: none;
+
+    cursor: pointer;
+    position: relative;
+    transition: o.4s;
+    background: linear-gradient(135deg,#00c6ff,#7f00ff);
 }
 
 .container.about {
